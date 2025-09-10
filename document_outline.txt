@@ -1,0 +1,55 @@
+   Comp 484 (h1)
+   └── Structuring Pages (h2)
+        ├── Introduction to HTML
+        ├── HTML syntax
+        ├── Structuring pages
+        ├── Creating links
+        ├── HTML reference
+        ├── Next steps
+    └── Conveying meaning through structure (h3)
+    └── Sectioning elements (h3)
+    └── Document outlines (h3)
+    │   └── W3C Warning (h4)
+    └── WAI-ARIA Roles (h3)
+
+ARIA Roles 
+
+role="banner" (line 9) - Applied to the <header> element
+Identifies the page header as the main banner/landmark
+Contains site title and navigation
+Site title (h1): "Comp 484"
+Page subtitle (h2): "Structuring Pages"
+Navigation menu with links to other pages
+
+role="navigation" (line 12) - Applied to the <nav> element
+Identifies the navigation section for assistive technologies
+Contains the main site navigation links
+Structure: Unordered list with navigation links
+
+role="main" (line 23) - Applied to the <main> element
+Identifies the primary content area of the page
+Contains the main article content
+Content: Single article about HTML structure
+
+role="complementary" (line 40) - Applied to the <aside> element
+Identifies supplementary content that complements the main content
+Purpose: Contains supplementary information (W3C warning)
+Content: Important warning about HTML5 outline algorithm implementation
+Structure: Contains heading (h4) and blockquote
+
+role="contentinfo" (line 52) - Applied to the <footer> element
+Identifies footer information about the page/site
+Contains copyright and contact information
+Content: CSUN contact information and link
+
+Article Element (lines 24-50)
+Purpose: Contains a self-contained piece of content about HTML structuring
+Structure: Contains multiple sections within the article
+Content: Educational content about HTML5 semantic elements
+
+Section Elements (lines 29-34, 35-45, 46-49)
+Purpose: Organize content into logical sections within the article
+Usage:
+Section 1: "Sectioning elements" - explains HTML5 semantic elements
+Section 2: "Document outlines" - explains document structure concepts
+Section 3: "WAI-ARIA Roles" - explains accessibility roles
